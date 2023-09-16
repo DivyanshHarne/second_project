@@ -5,7 +5,7 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final int day = 21;
+    final int day = 21; 
     final String name = "Divyansh Harne";
     double pi = 3.14;
     bool isMale = true;
@@ -18,7 +18,7 @@ class HomePage extends StatelessWidget {
       ),
       body: Center(
         child: Container(
-          child: Text("Welcome to $day Days of Code by ${name}"),
+          child: Text("Welcome to $day Days of Code by $name"),
         ),
       ),
       drawer: Drawer(),
